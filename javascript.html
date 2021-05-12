@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Javascript</title>
+</head>
+<body>
+    
+    <h2>Minha primeira Calculadora</h2>
+    <input type="text" id="numero1"/>
+    <span>*</span>
+    <input type="text" id="numero2"/>
+    <input type="button" onclick="calcular()" value="Calcular" />
+
+    <script>
+
+        function calcular(){
+
+        var numero1 = document.getElementById('numero1').value;
+        var numero2 = document.getElementById('numero2').value;
+
+        var total = numero1 * numero2;
+
+        alert(total)
+    }
+    </script>
+
+
+
+</body>
+</html>
