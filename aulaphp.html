@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Teste PHP</title>
+</head>
+<body>
+   <?php
+    //PHP
+
+    $nome_cliente = "Juan";
+    $nome_produto = "Camiseta";
+    $quantidade = 2;
+    $preco_do_produto = 20.20;
+    $total = $preco_do_produto * $quantidade;
+
+    //echo '<p style="text-decoration:underline;" >Olá '.$nome_cliente.'! O valor total é de R$'.$total.'</p>';
+
+   ?>
+
+   <p>Boa noite <?php echo $nome_cliente; ?>! O valor total é de R$<?php echo $total;?></p>
+
+
+</body>
+</html>
